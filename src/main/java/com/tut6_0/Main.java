@@ -107,12 +107,12 @@ public class Main {
 
        double Sum = m1.getPrice()+m2.getPrice()+m3.getPrice()+m4.getPrice()+m5.getPrice();
 
-        System.out.println( "إجمالي فاتورة الشراء:" +(Sum));
+        System.out.println( " إجمالي فاتورة الشراء:" +(Sum));
 
-        System.out.println( "قيمة الضريبة المضافة:" +(Sum*0.05));
+        System.out.println( " قيمة الضريبة المضافة:" +(Sum*0.05));
 
 
-        System.out.print( "Total:"  + (Sum+(Sum*0.05)));
+        System.out.print( "Total: "  + (Sum+(Sum*0.05)));
 
     }
 
