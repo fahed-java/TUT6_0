@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Customer[] customer = new Customer[10];
+       // Customer[] customer = new Customer[10];
 
        // for (Customer i=10,i=customers.length,i++){
            // for (Customer customer:customers){
