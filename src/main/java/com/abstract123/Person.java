@@ -3,16 +3,16 @@ package com.abstract123;
 public abstract class Person {
     private String name;
     private String mobile;
-    private String id;
+    private String num;
     private String gns;
 
     public Person() {
     }
 
-    public Person(String name, String mobile, String id, String gns) {
+    public Person(String name, String mobile, String num, String gns) {
         this.name = name;
         this.mobile = mobile;
-        this.id = id;
+        this.num = num;
         this.gns = gns;
     }
 
@@ -32,12 +32,12 @@ public abstract class Person {
         this.mobile = mobile;
     }
 
-    public String getId() {
-        return id;
+    public String getNum() {
+        return num;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setNum(String num) {
+        this.num = num;
     }
 
     public String getGns() {
@@ -48,7 +48,7 @@ public abstract class Person {
         this.gns = gns;
     }
 
-    public abstract void create();
+    public abstract void create(int i);
 
     public abstract void delete();
 
@@ -56,4 +56,5 @@ public abstract class Person {
 
     public abstract void show();
 
+    public abstract <T> void update(T ma );
 }
