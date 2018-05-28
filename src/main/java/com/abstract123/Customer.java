@@ -33,6 +33,8 @@ public class Customer extends Person {
         this.neqat = neqat;
     }
 
+
+
     @Override
     public void create(int i) {
         Main.data.getCustomers()[i] = this;
