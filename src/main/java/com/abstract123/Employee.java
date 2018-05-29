@@ -4,9 +4,10 @@ public class Employee extends Person {
 
     private Double salary;
 
-
-
     private int id;
+
+    public Employee() {
+    }
 
     public Employee(Double salary) {
         this.salary = salary;
@@ -63,7 +64,9 @@ public class Employee extends Person {
             Employee s1 = (Employee) ma;
             //البحث عن العنصر القديم
             for (int i = 0; i < Main.data.getEmployees().length; i++) {
+
                 if (this.id == Main.data.getEmployees()[i].getId()) {
+
                     Employee s2 = Main.data.getEmployees()[i];
                     s2.setId(s1.getId());
                     s2.setSalary(s1.getSalary());
