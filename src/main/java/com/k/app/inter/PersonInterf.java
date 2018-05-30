@@ -1,6 +1,5 @@
-package com.besafx.app.app.inter;
-
-import com.besafx.app.app.entity.Person;
+package com.k.app.inter;
+import com.k.app.entity.Person;
 
 public interface PersonInterf {
 

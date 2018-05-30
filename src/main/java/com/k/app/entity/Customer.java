@@ -1,4 +1,4 @@
-package com.besafx.app.app.entity;
+package com.k.app.entity;
 
 public class Customer extends Person {
 
@@ -16,6 +16,16 @@ public class Customer extends Person {
         this.nekat = nekat;
     }
 
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
+    public void setName(String name) {
+        super.setName(name);
+    }
+
     public Integer getId() {
         return id;
     }
@@ -31,4 +41,10 @@ public class Customer extends Person {
     public void setNekat(Integer nekat) {
         this.nekat = nekat;
     }
+
+    @Override
+    public String toString() {
+       return " اسم العميل " + super.getName()  +  " النقاط " + this.nekat;
+    }
 }
+

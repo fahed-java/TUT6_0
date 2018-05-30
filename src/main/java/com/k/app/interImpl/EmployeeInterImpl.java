@@ -1,7 +1,8 @@
-package com.besafx.app.app.interImpl;
+package com.k.app.interImpl;
 
-import com.besafx.app.app.entity.Employee;
-import com.besafx.app.app.inter.EmployeeInter;
+
+import com.k.app.entity.Employee;
+import com.k.app.inter.EmployeeInter;
 
 public class EmployeeInterImpl implements EmployeeInter {
     @Override

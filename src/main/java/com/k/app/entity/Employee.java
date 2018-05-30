@@ -1,4 +1,4 @@
-package com.besafx.app.app.entity;
+package com.k.app.entity;
 
 public class Employee extends Person{
 

@@ -1,6 +1,6 @@
-package com.besafx.app.app.inter;
+package com.k.app.inter;
 
-import com.besafx.app.app.entity.Customer;
+import com.k.app.entity.Customer;
 
 public interface CustomerInter {
 
@@ -9,6 +9,10 @@ public interface CustomerInter {
     Customer update(Customer customer);
 
     void delete(Customer customer);
+
+    void read();
+
+    void read(int i);
 
 
 }

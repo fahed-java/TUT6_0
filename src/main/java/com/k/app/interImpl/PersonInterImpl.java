@@ -1,7 +1,8 @@
-package com.besafx.app.app.interImpl;
+package com.k.app.interImpl;
 
-import com.besafx.app.app.entity.Person;
-import com.besafx.app.app.inter.PersonInterf;
+
+import com.k.app.entity.Person;
+import com.k.app.inter.PersonInterf;
 
 public class PersonInterImpl implements PersonInterf {
     @Override

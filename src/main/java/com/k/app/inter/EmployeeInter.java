@@ -1,6 +1,6 @@
-package com.besafx.app.app.inter;
+package com.k.app.inter;
 
-import com.besafx.app.app.entity.Employee;
+import com.k.app.entity.Employee;
 
 public interface EmployeeInter {
 

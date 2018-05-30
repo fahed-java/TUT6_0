@@ -1,8 +1,9 @@
-package com.besafx.app.app.interImpl;
+package com.k.app.interImpl;
 
-import com.besafx.app.app.database.Connection;
-import com.besafx.app.app.entity.Customer;
-import com.besafx.app.app.inter.CustomerInter;
+
+import com.k.app.database.Connection;
+import com.k.app.entity.Customer;
+import com.k.app.inter.CustomerInter;
 
 public class CustomerInterfaceImpl implements CustomerInter {
 
@@ -33,5 +34,25 @@ public class CustomerInterfaceImpl implements CustomerInter {
                 break;
             }
         }
+    }
+
+    @Override
+    public void read() {
+        for (int i = 0; i < Connection.customers.size(); i++){
+            System.out.println(Connection.customers.get(i).toString());
+        }
+    }
+
+    //عرض بيانات معينة
+    @Override
+    public void read(int k) {
+        for (int i = 0; i < Connection.customers.size(); i++){
+            if(Connection.customers.get(i).getId().equals(k)){
+                System.out.println(Connection.customers.get(i).toString());
+                break;
+            }
+        }
+
+
     }
 }
